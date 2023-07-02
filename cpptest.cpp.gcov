@@ -1,0 +1,10 @@
+        -:    0:Source:/Users/steve/Source/cpptestvscode/src/cpptest.cpp
+        -:    0:Graph:build/src/CMakeFiles/cpptest.dir/cpptest.cpp.gcno
+        -:    0:Data:build/src/CMakeFiles/cpptest.dir/cpptest.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <iostream>
+        -:    2:
+        2:    3:double add(double a, double b) {
+        2:    4:    return a + b;
+        -:    5:}

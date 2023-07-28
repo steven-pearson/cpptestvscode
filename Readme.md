@@ -1,3 +1,4 @@
+[![CMake](https://github.com/steven-pearson/cpptestvscode/actions/workflows/cmake.yml/badge.svg)](https://github.com/steven-pearson/cpptestvscode/actions/workflows/cmake.yml)
 # Simple demo with CMake and GTest
 
 Builds a simple C++ library, runs unit tests and generates code coverage.

@@ -8,7 +8,7 @@ VSCode [https://code.visualstudio.com/download](url)
 
 CMake
 ```
-brew install homebrew
+brew install cmake
 ```
 
 GTest

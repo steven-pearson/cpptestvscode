@@ -41,14 +41,14 @@ jobs:
     - name: Generate coverage report
       working-directory: ${{github.workspace}}/build/src/CMakeFiles/cpptest.dir
       run: |
-        rm -rf coverage_report
+        rm -rf ../../../../coverage
         gcov cpptest.cpp.gcno
         mkdir ../../../../coverage
         lcov --capture --directory . --output-file lcov.info
-        genhtml lcov.info -o coverage_report --frame --legend --demangle-cpp
+        genhtml lcov.info -o ../../../../coverage --frame --legend --demangle-cpp
 
     - uses: actions/upload-artifact@v2
       with:
         name: Coverage results
-        path: coverage_report        
+        path: coverage  
 
